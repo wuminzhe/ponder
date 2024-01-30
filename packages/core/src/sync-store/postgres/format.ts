@@ -18,7 +18,7 @@ type BlocksTable = {
   hash: Hash;
   logsBloom: Hex;
   miner: Address;
-  mixHash: Hash;
+  mixHash: Hash | null;
   nonce: Hex;
   number: bigint;
   parentHash: Hash;
